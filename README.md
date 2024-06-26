@@ -5,3 +5,5 @@ The flood impact map: calculates the impact of a given flood prediction on diffe
 Import 18hr forecast: downloads stream discharge forecast published by NOAA and updated every hour. The script can be modified to download 12hr, 24hr forecasts as well
 
 OWP HANDFIM: Runs handfim. and outputs a fim with depth values
+
+forecast_input csv file: a sample output from the import 18hr forecast
