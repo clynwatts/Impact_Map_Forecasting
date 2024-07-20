@@ -117,7 +117,7 @@ Dowonload the ESRI Geodatabase data in census tract level using the link >>> [Da
 
 
 ### Results
-There is `test folder` contains all the inputs and the outputs of the whole process. It can be used as a test to be familiar with the workflow.
+There is `test folder` contains all the inputs and the outputs of the 18 hours forecast operational process. It can be used as a test to be familiar with the workflow. You can download it using the following link: https://drive.google.com/file/d/1wRT-Asijo6HPSTmUeuPWgG9o3zGCUu_z/view?usp=sharing
 
 for more information about this work please check our report using the following Link:  http/...
 
