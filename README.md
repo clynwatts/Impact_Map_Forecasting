@@ -1,4 +1,4 @@
-# Impact Map Generation and Automation
+# Operational Workflow for Flood Impact Forecast (Generation and Automation)
 
 ## Overview
 This project involves generating an impact map based on streamflow and SVI data, processing the data, and uploading the results to ArcGIS Online. The workflow includes downloading necessary data, processing it to create an impact map, and automating the upload of the map to ArcGIS Online.
