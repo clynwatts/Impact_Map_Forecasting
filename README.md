@@ -117,7 +117,7 @@ Dowonload the ESRI Geodatabase data in census tract level using the link >>> [Da
 
 
 ### Results
-There is `test folder` contains all the inputs and the outputs of the whole process. It can be used to be familiar with the workflow.
+There is `test folder` contains all the inputs and the outputs of the whole process. It can be used as a test to be familiar with the workflow.
 
 for more information about this work please check our report using the following Link:  http/...
 
