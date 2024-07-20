@@ -5,7 +5,7 @@ This project involves generating an impact map based on streamflow and SVI data,
 
 ## Requirements
 - ArcGIS Online Account
-- Python 3.x
+- Python 3.9
 - Necessary Python packages listed in `requirements.yml`
 
 ## Configuration
