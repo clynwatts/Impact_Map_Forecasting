@@ -1,0 +1,18 @@
+name: impact_map_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - requests
+  - beautifulsoup4
+  - pandas
+  - netCDF4
+  - rasterio
+  - gdal
+  - numpy
+  - arcgis
+  - matplotlib
+  - pip:
+    - gis
