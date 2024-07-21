@@ -90,7 +90,7 @@ python publish_arcgis_online.py
 ```
 You can check our ArcGIS Instant App using the following link:
 ```
-https://wmugeography.maps.arcgis.com/apps/instant/atlas/index.html?appid=2088172c05fc45269099be65f233b37f
+`https://wmugeography.maps.arcgis.com/apps/instant/atlas/index.html?appid=2088172c05fc45269099be65f233b37f`
 ```
 
 ### 7- Tasker Scheduler 
