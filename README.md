@@ -90,7 +90,7 @@ python publish_arcgis_online.py
 ```
 You can check our ArcGIS Instant App using the following link: 
 [Impact-based Flood Forcast App](https://wmugeography.maps.arcgis.com/apps/instant/atlas/index.html?appid=2088172c05fc45269099be65f233b37f)
-Open the Map and Add the 'Flood Impact Forecast'
+Open the Map and Add the 'Flood Impact Forecast' to show it
 
 
 ### 7- Tasker Scheduler 
