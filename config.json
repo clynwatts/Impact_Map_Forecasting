@@ -2,6 +2,7 @@
   "HUC_ID": "12040104",
   "local_dir": "D:/Hesham/test/12040104",
   "download_dir": "D:/Hesham/test/download",
+  "5day_download_dir": "D:/Hesham/test/5day_download",
   "bucket_name": "noaa-nws-owp-fim",
   "prefix_base": "hand_fim/fim_4_4_0_0/",
   "output_csv_filename": "12040104_feature_id.csv",
