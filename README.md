@@ -88,6 +88,11 @@ After you set-up the ArcGIS online configuring, RUN the script.
 ```
 python publish_arcgis_online.py
 ```
+You can check our ArcGIS Instant App using the following link:
+```
+https://wmugeography.maps.arcgis.com/apps/instant/atlas/index.html?appid=2088172c05fc45269099be65f233b37f
+```
+
 ### 7- Tasker Scheduler 
 Scheduling the Workflow
 To schedule the workflow to run hourly on Windows:
@@ -100,11 +105,11 @@ In the "Program/script" field, enter the path to the Python executable (with the
    ```
    c:\Users\hhp1483\AppData\Local\anaconda3\envs\py310\python.exe
    ```
-In the "Add arguments" field, enter the path to your script.
+In the "Add arguments" field, enter the path to 18_hour_flood_impact_forecast.py
   
 ## Notes
 ### HAND-FIM notebook
-It can run without Docker. this notebook is not related to from the workflow. 
+It can run without Docker. this notebook is not related the workflow. 
 
 ### Forecast Confidence notebook (Not Fully Automated) 
 This process was tested on the hourly basis forecast, and it was not included in the workflow. A flood forecast confidence map indicates the reliability of flood predictions, showing the likelihood of an area being flooded. It is important because it helps decision-makers assess the certainty of flood forecasts, improving preparedness and response strategies. To create the flood forecast confidence map using the Flood Inundation Maps (FIMs), we followed the process outlined in figure 2. Every hour, the NWM provides a forecast for each of the next 18 hours. This means that a single hour will be forecasted 18 times, at each of the previous hours. Within the 18 iterations, the single-hour forecast suffers from inconsistency, where some iterations predict widespread flooding and other iterations predict little. For example, a forecast published at 7:00 am (real time) for 5:00 pm shows a specific area as flooded, but the same forecast for 5:00 pm at 8:00 am (real-time) shows the same area as non-flooded. This inconsistency poses a challenge for decision-makers, watching flood predictions change from hour to hour. To address this inconsistency, we calculated the hourly flood forecast confidence based on the previous forecasts, to produce a forecast confidence map.  
