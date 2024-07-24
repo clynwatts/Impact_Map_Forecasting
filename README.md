@@ -135,6 +135,6 @@ We welcome contributions from the community. Please follow these steps to contri
 5.	Open a pull request.
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is part of a publication that is in prep. Please contact cwatts@umass.edu for citation and use of this code. 
 ________________________________________
 This README provides a comprehensive overview of your project and guides users on how to use it effectively. Adjust the file paths, script names, and repository URL as needed.
